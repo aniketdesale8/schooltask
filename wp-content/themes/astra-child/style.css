@@ -1,0 +1,281 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.hero-slider {
+	padding-top: 0px;
+}
+
+.wp-block-group {
+	padding-top: 0px;
+	padding-bottom: 4em;
+}
+
+.menu-link {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ast-menu-svg{
+	fill: #fff !important;
+}
+
+#menu-main-links{
+	padding-left: 0px;
+}
+
+#menu-social-links{
+	padding-left: 0px;
+}
+
+/*Testimonial Slider*/
+.slider-body {
+  background-color: #f3f2f2;
+  padding: 50px 30px;
+  text-align: center;
+  font: normal normal 24px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.slider-body h2 {
+  max-width: 60ch;
+  margin: 0 auto 2em;
+}
+
+.testimonial-slider {
+   display: block;
+   width: 100%;
+   height: auto;
+   margin-top: 100px;
+}
+
+.testimonial-slider ul.slider {
+   display: block;
+   list-style: none;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 165px;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+.testimonial-slider ul.slider li {
+    position: absolute;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    margin: 0 auto;
+}
+.testimonial-slider ul.slider li:nth-child(1) {
+    opacity: 1;
+
+    -webkit-animation: fade-animation-1 25s infinite;
+            animation: fade-animation-1 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(2) {
+    -webkit-animation: fade-animation-2 25s infinite;
+            animation: fade-animation-2 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(3) {
+    -webkit-animation: fade-animation-3 25s infinite;
+            animation: fade-animation-3 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(4) {
+    -webkit-animation: fade-animation-4 25s infinite;
+            animation: fade-animation-4 25s infinite;
+}
+
+.testimonial-slider q {
+   display: inline-block;
+   letter-spacing: .5pt;
+   text-shadow: 0 5px 10px rgba(0,0,0,.1);
+   max-width: 35ch;
+}
+
+.testimonial-slider .source {
+    margin-top: 25px;
+    font: italic 400 / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* KEYFRAME DECLARATIONS */
+@keyframes fade-animation-1 {
+    0%, 25%, 100% {
+        opacity:0
+    }
+    3%, 22% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-2 {
+    0%, 25%, 50%, 100% {
+        opacity:0
+    }
+    28%, 47% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-3 {
+    0%, 50%, 75%, 100% {
+        opacity:0
+    }
+    53%, 72% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-4 {
+    0%, 75%, 100% {
+        opacity:0
+    }
+    78%, 97% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-animation-1 {
+    0%, 25%, 100% {
+        opacity:0
+    }
+    3%, 22% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-2 {
+    0%, 25%, 50%, 100% {
+        opacity:0
+    }
+    28%, 47% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-3 {
+    0%, 50%, 75%, 100% {
+        opacity:0
+    }
+    53%, 72% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-4 {
+    0%, 75%, 100% {
+        opacity:0
+    }
+    78%, 97% {
+        opacity: 1;
+    }
+}
+
+.section-title{
+	font-weight: 800;
+}
+
+.button-blue{
+	color: #fff;
+}
+
+.school-dotnav{
+	padding-top: 25px;
+}
+
+.section-title-padding{
+	padding-bottom: 30px;
+}
+
+/* Slider css*/
+
+#slider, .wrap, .slide-content{
+    margin:0;
+    padding:0;
+    font-family: Cabin, Helvetica, sans-serif;
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+}
+.wrap{position:relative;}
+
+.slide{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0s;
+}
+
+.slide1{background-image: url('https://static.pexels.com/photos/242133/pexels-photo-242133.jpeg');}
+.slide2{background-image: url('https://static.pexels.com/photos/242138/pexels-photo-242138.jpeg');}
+.slide3{background-image: url('https://static.pexels.com/photos/290678/pexels-photo-290678.jpeg');}
+
+.slide-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-content span{
+    font-size: 5rem;
+    color:#fff;
+    background-color:rgba(0,0,0, .6);
+    padding:10px 20px;
+}
+
+.dir-control{
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+    margin-top:-30px;
+    width:0;
+    height:0;
+    z-index:5;
+}
+.fa {
+  display:inline-block;
+   line-height: 50px;
+   background-color:rgba(0,0,0, .3);
+   width:50px;
+   height:56px;
+   color:white;
+   text-align: center;
+   vertical-align: bottom;
+}
+
+#dir-control-left{
+    left:0;
+    margin-left:30px;
+}
+
+#dir-control-right{
+    right:0;
+    margin-right:60px;
+}
+.slider-active{
+    visibility:hidden;
+    opacity:0;
+}
+.slide.slide-is-active{
+    visibility:visible;
+    opacity: 1;
+}
+
+.slide-transition{
+    transition: all .5s ease-in-out;
+}
+
+.hero-text{
+	color: #5fd2ed !important;
+	font-weight: 800;
+}
